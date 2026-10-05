@@ -1,0 +1,10 @@
+spring:
+  application.name: order-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/orders
+    username: app
+    password: app
+  jpa.hibernate.ddl-auto: update
+  kafka.bootstrap-servers: localhost:9092
+server.port: 8080
+management.endpoints.web.exposure.include: health,metrics,prometheus
