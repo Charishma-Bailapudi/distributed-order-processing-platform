@@ -1,0 +1,7 @@
+spring:
+  application.name: payment-service
+  kafka.bootstrap-servers: localhost:9092
+  datasource.url: jdbc:postgresql://localhost:5432/orders
+  datasource.username: app
+  datasource.password: app
+server.port: 8081
